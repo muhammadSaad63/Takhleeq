@@ -56,6 +56,8 @@ cmake --build .
 # 4. Run the simulation
 ./an_naml
 
+```
+
 ### Project Structure
 
     * ** Ant Class: Manages the ant's orientation logic (N, E, S, W), position updates, and state-based turning.
