@@ -72,8 +72,8 @@ cmake --build .
 
 ### Credits
     This project couldn't have been possible in the least without suggestions & guidance from the following seniors of mine:
-* **[Ebbi]**      (https://github.com/DefNotEbbi)
-* **[Abdul Hadi]**(https://github.com/abdulhadiulhaq)
+* **[Ebbi]      (https://github.com/DefNotEbbi)**
+* **[Abdul Hadi](https://github.com/abdulhadiulhaq)**
 
 ### License
 
