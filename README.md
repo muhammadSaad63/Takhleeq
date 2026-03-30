@@ -60,20 +60,20 @@ cmake --build .
 
 ### Project Structure
 
-* ** Ant Class **: Manages the ant's orientation logic (N, E, S, W), position updates, and state-based turning.
+* **Ant Class**: Manages the ant's orientation logic (N, E, S, W), position updates, and state-based turning.
 
-* ** World Class **: Manages the 900x900 grid, handles input polling (mouse/keyboard), and controls the rendering loop.
+* **World Class**: Manages the 900x900 grid, handles input polling (mouse/keyboard), and controls the rendering loop.
 
-* ** main.cpp **: Entry point that initializes the raylib window and drives the simulation.
+* **main.cpp**: Entry point that initializes the raylib window and drives the simulation.
 
-* ** CMakeLists.txt **: Cross-platform build script configured to link raylib and its dependencies.
+* **CMakeLists.txt**: Cross-platform build script configured to link raylib and its dependencies.
 
 ---
 
 ### Credits
     This project couldn't have been possible in the least without suggestions & guidance from the following seniors of mine:
-* ** [Ebbi] **(https://github.com/DefNotEbbi)
-* ** [Abdul Hadi] **(https://github.com/abdulhadiulhaq)
+* **[Ebbi]**      (https://github.com/DefNotEbbi)
+* **[Abdul Hadi]**(https://github.com/abdulhadiulhaq)
 
 ### License
 
