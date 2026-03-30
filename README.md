@@ -70,6 +70,11 @@ cmake --build .
 
 ---
 
+### Credits
+    This project couldn't have been possible in the least without suggestions & guidance from the following seniors of mine:
+    - [Ebbi](https://github.com/DefNotEbbi)
+    - [Abdul Hadi](https://github.com/abdulhadiulhaq)
+
 ### License
 
 This project is open-source and available under the MIT License.
