@@ -1,3 +1,6 @@
 .vscode/
 build/
 
+anNaml
+anNaml.exe
+*.exe
