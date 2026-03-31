@@ -5,7 +5,7 @@
 
 ---
 
-## 📑 Navigation
+## 📑 Table of Contents
 
 | Section | Description |
 | :--- | :--- |
