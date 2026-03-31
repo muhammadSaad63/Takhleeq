@@ -1,7 +1,7 @@
 ### بسم اللہ 
 # Takhleeq (تخلیق) 🌐
 
-**Takhleeq** (meaning *Creation* or *Genesis*) is a high-performance simulation engine built in C++ using **raylib**. It serves as a digital sandbox for exploring the emergent beauty of mathematical patterns, biological growth, and physical laws.
+**an-Naml** is a high-performance C++ simulation of **Langton's Ant**, built using the **raylib** framework. It features a dual-state system that allows users to manually seed the world before letting the cellular automaton take over.
 
 ---
 
@@ -68,5 +68,6 @@ This project really wouldn't have been possible without guidance & inspiration f
 
 ---
 
-## 📜 License
-This project uses the MIT license.
+### License
+
+This project is open-source and available under the MIT License.
