@@ -1,5 +1,5 @@
 ### بسم اللہ الرحمان الرحیم
-# Takhleeq (تخلیق) 🌐🪼🧬
+# Takhleeq (تخلیق) 🌐
 
 **Takhleeq** (meaning *Creation*) is a high-performance simulation engine built in C++ using **raylib**. It serves as a digital sandbox for exploring the emergent beauty of mathematical patterns, biological growth, and physical laws.
 
