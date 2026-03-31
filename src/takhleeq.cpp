@@ -39,6 +39,7 @@
 #include <vector>
 #include <iostream>
 #include <raylib.h>
+#include <raygui.h>
 using std::cout, std::vector;
 #define SIZE 900
 
@@ -156,11 +157,6 @@ class World{
             } else {
                 Vector2 pos = GetMousePosition();
                 if (IsMouseButtonDown(MOUSE_LEFT_BUTTON)) {
-                    // grid[(int)pos.x][(int)pos.y] = 'B';
-                    // grid[(int)pos.x+1][(int)pos.y] = 'B';
-                    // grid[(int)pos.x-1][(int)pos.y] = 'B';
-                    // grid[(int)pos.x][(int)pos.y+1] = 'B';
-                    // grid[(int)pos.x][(int)pos.y-1] = 'B';
                     grid[(int)pos.x][(int)pos.y] = 'B';
                     for (auto i {0}; i < limit; ++i){
                         if ((pos.x + i) > SIZE) { break; }
@@ -199,28 +195,26 @@ class World{
                     }
 
                 }
+                if (IsKeyDown(KEY_LEFT) && ((limit - 25) >= 0)){ limit -= 25; }
+                if (IsKeyDown(KEY_RIGHT) && (limit + 25) <= 330)                      { limit += 25; }
 
                 if (IsKeyDown(KEY_DOWN) && ((max - 25) >= 0)){ max -= 25; }
-                if (IsKeyDown(KEY_UP)){ max += 25;}
+                if (IsKeyDown(KEY_UP))                       { max += 25; }
             }
         }
         void draw(){
             ClearBackground(WHITE);
 
-            DrawText(TextFormat("Steps: %d", steps), 25, 25, 25, GOLD);
-            DrawText(TextFormat("X: %d, Y: %d", ant.getPosX(), ant.getPosY()), 25, 60, 25, GOLD);
-            DrawText(TextFormat("Max: %d", max), 25, 90, 25, GOLD);
+            DrawText(TextFormat("Steps: %d", steps), 15, 25, 25, GOLD);
+            DrawText(TextFormat("X: %d, Y: %d", ant.getPosX(), ant.getPosY()), 15, 55, 25, GOLD);
+            DrawText(TextFormat("Simulation Speed: %d", max), 15, 85, 25, GOLD);
+            DrawText(TextFormat("Draw Size: %d", limit), 15, 115, 25, GOLD);
 
             for (auto i {0}; i < GetScreenWidth(); ++i){
                 for (auto j {0}; j < GetScreenHeight(); ++j){
                     if (grid[i][j] == 'B') DrawPixel(i, j, BLACK);
-                    // DrawRectangle(i, j, 1, 1, ((grid[i][j] == 'W')? WHITE : DARKGRAY));
                 }
             }
-            // for (auto& row : grid){
-            //     for (auto& cell : row){
-            //     }
-            // }
         }
 };
 
