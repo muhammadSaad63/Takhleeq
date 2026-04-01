@@ -1,4 +1,4 @@
-### بسم اللہ الرحمان الرحیم
+#### بسم اللہ الرحمان الرحیم
 # Takhleeq (تخلیق) 🌐
 
 **Takhleeq** (meaning *Creation*) is a high-performance simulation engine built in C++ using **raylib**. It serves as a digital sandbox for exploring the emergent beauty of mathematical patterns, biological growth, and physical laws.
@@ -18,12 +18,15 @@
 
 ---
 
-## 🚀 Vision
+<br>
+ 
+## Vision 🚀 
 The goal of **Takhleeq** is to provide a unified interface to observe how simple, local rules—whether they be grid-based, recursive, or physical—can give rise to global complexity. 
 
----
+<br>
 
-## 📂 Project Structure
+
+## Project Structure 📂 
 
 The project is organized into three distinct "families" of simulation, separated by their underlying mathematical logic and computational implementation:
 
@@ -40,9 +43,9 @@ LICENSE
 README.txt
 ```
 
----
+<br>
 
-## 🧬 Simulation Families
+## Simulation Families 🧬 
 
 ### 1. (Cellular) Automata
 These simulations operate on a **discrete grid**. Every cell's state at time $T+1$ is determined solely by the states of its immediate neighbors at time $T$.
@@ -66,26 +69,34 @@ Unlike the grid-based automata, these simulations use **continuous vector mathem
 * **Particle Life:** An emergent simulation where different "species" of particles attract or repel each other to form cell-like clusters.
 * **Solar System:** A classic N-body simulation using Newton’s Law of Universal Gravitation to model planetary orbits.
 
----
+<br>
 
-## 🛠️ Tech Stack
+## Tech Stack 🛠️ 
+
 * **Language:** C++
 * **Graphics:** [raylib](https://www.raylib.com/)
 * **UI:** [raygui](https://github.com/raysan5/raygui)
 * **Build System:** CMake
 
----
+<br>
 
-## 🥸 Credits
+## Credits 🥸 
+
 This project really wouldn't have been possible without guidance & inspiration from these seniors of mine: :>
 * **[Mr. Ebrahim Muneer](https://github.com/DefNotEbbi)**
 * **[Mr. Abdul Hadi ul Haq](https://github.com/abdulhadiulhaq)**
 
----
+<br>
 
-## 📜 License
+## License 📜
 
 This project is licensed under the **MIT License**.  
 See the [LICENSE](LICENSE) file for the full text. 
 
 > "Takhleeq is open-source and free for anyone to study, modify, and distribute. Exploration of the digital universe should be accessible to all."
+
+<br>
+
+---
+
+#### للہ الحمد کلہ
