@@ -10,12 +10,12 @@
 
 | Section | Description |
 | :--- | :--- |
-| [**🚀 Vision**](#-vision) | The philosophy behind Takhleeq |
-| [**📂 Project Structure**](#-project-structure) | File organization and directory map |
-| [**🧬 Simulation Families**](#-simulation-families) | Deep dive into the 3 core simulation types |
-| [**🛠️ Tech Stack**](#️-tech-stack) | Languages, libraries, and build tools |
-| [**🥸 Credits**](#-credits) | Mentors and contributors |
-| [**📜 License**](#-license) | Usage rights and open-source details |
+| [**🚀 Vision**](#vision-) | The philosophy behind Takhleeq |
+| [**📂 Project Structure**](#project-structure-) | File organization and directory map |
+| [**🧬 Simulation Families**](#simulation-families-) | Deep dive into the 3 core simulation types |
+| [**🛠️ Tech Stack**](#️tech-stack-) | Languages, libraries, and build tools |
+| [**🥸 Credits**](#credits-) | Mentors and contributors |
+| [**📜 License**](#license-) | Usage rights and open-source details |
 
 <br>
 
