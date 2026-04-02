@@ -37,6 +37,7 @@ The project is organized into three distinct "families" of simulation, separated
 /
 └── src/
 │   └── include/
+│       │
 │       ├── automata/                  # Grid-based discrete logic
 │       │   ├── abelianSandPile/
 │       │   ├── briansBrain/
