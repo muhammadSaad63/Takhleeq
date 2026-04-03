@@ -34,16 +34,35 @@ The goal of **Takhleeq** is to provide a unified interface to observe how simple
 The project is organized into three distinct "families" of simulation, separated by their underlying mathematical logic and computational implementation:
 
 ```text
-src/
-└── include/
-    ├── automata/    # Grid-based discrete logic
-    ├── fractals/    # Recursive & iterative geometry
-    └── physics/     # Vector-based continuous dynamics
-    takhleeq.cpp
-.gitignore
-CMakeLists.txt
-LICENSE
-README.txt
+/
+└── src/
+│   │
+│   ├── automata/                  # Grid-based discrete logic
+│   │   ├── abelianSandPile/
+│   │   ├── briansBrain/
+│   │   ├── gameOfLife/
+│   │   ├── langtonsAnt/
+│   │   ├── langtonsLoops/
+│   │   └── seeds/
+│   │
+│   ├── fractals/                  # Recursive & iterative geometry
+│   │   ├── barnsleysFern/
+│   │   ├── kochSnowFlakes/
+│   │   ├── mandelbrot/
+│   │   └── sierpinskiTriangle/
+│   │
+│   └── physics/                   # Vector-based continuous dynamics
+│   │   ├── boids/
+│   │   ├── galaxies/
+│   │   ├── particleLife/
+│   │   └── solarSystem/
+│   │ 
+│   └── takhleeq.cpp
+│    
+├── .gitignore
+├── CMakeLists.txt
+├── LICENSE
+└── README.txt
 ```
 
 <br>
