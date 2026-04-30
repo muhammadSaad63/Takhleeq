@@ -105,10 +105,11 @@ Unlike the grid-based automata, these simulations use **continuous vector mathem
 ## Credits 🥸 
 
 This project really wouldn't have been possible without guidance & inspiration from these seniors of mine: :>
+* **[Mr. Haris Zamir](https://github.com/Har15Zamir)**
+* **[Mr. Hamza Faisal Ahmed](https://github.com/hamzafaisalahmed)**
 * **[Mr. Ebrahim Muneer](https://github.com/DefNotEbbi)**
 * **[Mr. Abdul Hadi ul Haq](https://github.com/abdulhadiulhaq)**
-* **[Mr. Hamza Faisal Ahmed](https://github.com/hamzafaisalahmed)**
-* **[Mr. Haris Zamir](https://github.com/Har15Zamir)**
+
 
 
 <br>
